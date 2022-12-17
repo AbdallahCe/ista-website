@@ -1,0 +1,34 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 2rem 6rem;
+  background: gray;
+  color: white;
+}
+.top {
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.top i {
+  color: white;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.top i:hover {
+  color: #139a01;
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    padding: 2rem 2rem;
+  }
+  .footer i {
+    margin: 1rem 1rem 0 0;
+  }
+}
